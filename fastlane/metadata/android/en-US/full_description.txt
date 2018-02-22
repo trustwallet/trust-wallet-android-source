@@ -18,9 +18,9 @@
 
 ✔️ Backup and restore your wallet from a highly encrypted file in less than 30 seconds
 
-✔️  Access any cold storage wallet - Trezor, Ledger, KeepKey etc. - with Trust’s “watch” function without exposing your private key in a “view-only” mode. Monitor performance of your digital assets while keeping keys in a safe and secure location
+✔️ Access any cold storage wallet - Trezor, Ledger, KeepKey etc. - with Trust’s “watch” function without exposing your private key in a “view-only” mode. Monitor performance of your digital assets while keeping keys in a safe and secure location
 
-✔️  See how much your tokens and coins are worth! Monitor real-time value of your digital portfolio and individual assets in your native currency
+✔️ See how much your tokens and coins are worth! Monitor real-time value of your digital portfolio and individual assets in your native currency
 
 ✔️ Enjoy the simplicity of intuitive interface that was created specifically for a mobile device. You won’t see your app crashing or lagging because our UI was built using native Android components and technologies
 
