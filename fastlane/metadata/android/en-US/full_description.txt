@@ -1,12 +1,48 @@
-Trust - is an extremely fast and secure Ethereum wallet built with ease of use in mind. We provide a fully security audited system that makes it simple to buy and store Ethereum and ERC20 tokens on your device. Trust is designed specifically for mobile to provide the best possible experience:
+<b>Trust Wallet</b> is an extremely fast and secure Ethereum wallet built with ease of use in mind. We created a platform that was audited for security to provide the best-in-class protection to your digital assets. Trust Wallet makes it simple to send, store and receive Ethereum (ETH, ETC, Callisto), ERC20 and ERC223 tokens on your Android device. 
 
-- Securely store private keys on your device
-- Send and request ether (ETH)
-- Store and track ERC20 tokens
-- Check balance, transaction history, and other details
-- Keep your private key secure with bank level security
-- Gain peace of mind knowing all web interactions are protected by military grade encryptions
-- Keep your data personal - we will never access any of your information 
-- Enjoy intuitive interfaces
+Native Dapps browser within Trust Wallet allows you to experience decentralized applications (Dapps) powered by Ethereum network safely and harmlessly. Buy cryptokitties, collect unique digital assets or exchange tokens with just a few taps, completely secure - all without leaving your Trust Wallet app.
 
-If you’re having issues with the app, or wish to provide feedback, please send us an email at support@trustwalletapp.com or contact our community from within the app itself.
+<b>Highlights of Trust - Ethereum wallet</b>
+
+✔️ Participate in any ERC20 or ERC223 based ICO or airdrop. Configure gas price, gas limit and data/message in a simple and easy-to-understand way.
+
+✔️ Gain a peace of mind with military grade security. Trust Wallet was fully audited by a leading security firm that ensured safety and integrity of the application
+
+✔️ Take the full advantage of Ethereum platform. Send, receive, store and track Ethereum (ETH), Ethereum Classic (ETC), Callisto (CLO) and over 30,000 supported ERC20 tokens, including EOS, OmiseGO, Qtum, Kyber Network, EOS, Bat, TenXPay and Augur
+
+✔️ Maintain control of your digital assets by storing your private keys on your own device. With Trust Wallet’s server-free infrastructure only you can access your funds.
+
+✔️ Protect your crypto funds by enabling additional level of security - pin and biometrics. With that feature turned on, even if a mobile device is unlocked, the app will require separate authentication in order to access the funds.
+
+✔️ Check balance, history, and other transaction details. 
+
+✔️ Backup and restore your wallet from a highly encrypted file in less than 30 seconds.
+
+✔️  Access any cold storage wallet - Trezor, Ledger, KeepKey etc. - with Trust’s “watch” function without exposing your private key in a “view-only” mode. Monitor performance of your digital assets while keeping keys in a safe and secure location.
+
+✔️  See how much your tokens and coins are worth! Monitor real-time value of your digital portfolio and individual assets in your native currency.
+
+✔️ Enjoy the simplicity of intuitive interface that was created specifically for a mobile device. You won’t see your app crashing or lagging because our UI was built using native Android components and technologies.
+
+<b>Trust - Ethereum Wallet for Android</b>
+Trust - Ethereum Wallet for Android has been designed from the ground up to to provide the best possible cryptocurrency experience on your Android device. Features includes:
+<b>Wallet:</b> send and request ether, ERC20 and ERC223 tokens
+<b>Watch:</b> add an address and get notified  when it is active
+<b>Dapps Browser:</b> use Dapps to instantly buy, sell ethereum and ERC20 and ERC223 tokens, collect digital assets such as cryptokitties and more
+<b>Push notifications:</b> get notified of when transactions happen on your address
+<b>Transactions:</b> see detailed information about transactions, full history, price of your portfolio
+<b>Send & Receive:</b> easily send and receive assets via QR code or copy/paste
+<b>Security:</b> set a passcode to protect the app to add another level of encryption
+
+<b>Press and Trust users love us!</b>
+“Top 5 Ethereum wallet supporting ERC20” - The Merkle
+“The greatest mobile crypto wallet. My go to for all ERC20/ERC223 coins. The developers are super accessible and help out with any issues/questions that arise. Highly recommended” - Review on Cryptocompare
+Read more reviews on Trust Wallet Wall of Love: https://twitter.com/trustwalletlove
+
+<b>Have questions?</b>
+If you’re having issues with the app, or wish to provide feedback, contact us via:
+email: support@trustwalletapp.com
+telegram: https://t.me/trustwallet
+twitter: https://twitter.com/trustwalletapp
+
+ 🙏
