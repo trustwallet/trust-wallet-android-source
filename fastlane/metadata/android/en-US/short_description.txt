@@ -1,1 +1,1 @@
-Awesome Ethereum Wallet with ERC20 token support
+Fast and secure Ethereum wallet with full support of ERC20 tokens
