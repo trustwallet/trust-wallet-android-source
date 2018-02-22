@@ -6,9 +6,9 @@ Native Dapps browser within Trust Wallet allows you to experience decentralized 
 
 ✔️ Participate in any ERC20 or ERC223 based ICO or airdrop. Configure gas price, gas limit and data/message in a simple and easy-to-understand way.
 
-✔️ Gain a peace of mind with military grade security. Trust Wallet was fully audited by a leading security firm that ensured safety and integrity of the application
+✔️ Gain peace of mind with military grade security. Trust Wallet was fully audited by a leading security firm that ensured safety and integrity of the application.
 
-✔️ Take the full advantage of Ethereum platform. Send, receive, store and track Ethereum (ETH), Ethereum Classic (ETC), Callisto (CLO) and over 30,000 supported ERC20 tokens, including EOS, OmiseGO, Qtum, Kyber Network, EOS, Bat, TenXPay and Augur
+✔️ Take the full advantage of Ethereum platform. Send, receive, store and track Ethereum (ETH), Ethereum Classic (ETC), Callisto (CLO) and over 30,000 supported ERC20 tokens, including EOS, OmiseGO, Qtum, Kyber Network, EOS, Bat, TenXPay and Augur.
 
 ✔️ Maintain control of your digital assets by storing your private keys on your own device. With Trust Wallet’s server-free infrastructure only you can access your funds.
 
@@ -18,9 +18,9 @@ Native Dapps browser within Trust Wallet allows you to experience decentralized 
 
 ✔️ Backup and restore your wallet from a highly encrypted file in less than 30 seconds.
 
-✔️  Access any cold storage wallet - Trezor, Ledger, KeepKey etc. - with Trust’s “watch” function without exposing your private key in a “view-only” mode. Monitor performance of your digital assets while keeping keys in a safe and secure location.
+✔️ Access any cold storage wallet - Trezor, Ledger, KeepKey etc. - with Trust’s “watch” function without exposing your private key in a “view-only” mode. Monitor performance of your digital assets while keeping keys in a safe and secure location.
 
-✔️  See how much your tokens and coins are worth! Monitor real-time value of your digital portfolio and individual assets in your native currency.
+✔️ See how much your tokens and coins are worth! Monitor real-time value of your digital portfolio and individual assets in your native currency.
 
 ✔️ Enjoy the simplicity of intuitive interface that was created specifically for a mobile device. You won’t see your app crashing or lagging because our UI was built using native Android components and technologies.
 
