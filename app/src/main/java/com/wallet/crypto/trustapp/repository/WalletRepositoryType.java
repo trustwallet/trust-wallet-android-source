@@ -10,7 +10,7 @@ import io.reactivex.Single;
 
 public interface WalletRepositoryType {
 	Single<Wallet[]> fetchWallets();
-	Maybe<Wallet> findWallet(String address);
+	Single<Wallet> findWallet(String address);
 
 	Single<Wallet> createWallet(String password);
 	Single<Wallet> importKeystoreToWallet(String store, String password, String newPassword);

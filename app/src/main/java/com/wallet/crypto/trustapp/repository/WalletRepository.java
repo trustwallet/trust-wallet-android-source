@@ -39,12 +39,12 @@ public class WalletRepository implements WalletRepositoryType {
 	}
 
 	@Override
-	public Maybe<Wallet> findWallet(String address) {
+	public Single<Wallet> findWallet(String address) {
 		return fetchWallets()
-				.flatMapMaybe(accounts -> {
+				.flatMap(accounts -> {
 					for (Wallet wallet : accounts) {
 						if (wallet.sameAddress(address)) {
-							return Maybe.just(wallet);
+							return Single.just(wallet);
 						}
 					}
 					return null;
@@ -85,8 +85,7 @@ public class WalletRepository implements WalletRepositoryType {
 	@Override
 	public Single<Wallet> getDefaultWallet() {
 		return Single.fromCallable(preferenceRepositoryType::getCurrentWalletAddress)
-				.flatMapMaybe(this::findWallet)
-				.toSingle();
+				.flatMap(this::findWallet);
 	}
 
 	@Override

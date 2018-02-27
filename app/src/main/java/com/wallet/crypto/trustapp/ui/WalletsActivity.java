@@ -74,7 +74,6 @@ public class WalletsActivity extends BaseActivity implements
 		systemView.attachRecyclerView(list);
 		systemView.attachSwipeRefreshLayout(refreshLayout);
 		backupWarning.setOnPositiveClickListener(this::onNowBackup);
-		backupWarning.setOnNegativeClickListener(this::onLaterBackup);
 
 		viewModel = ViewModelProviders.of(this, walletsViewModelFactory)
 				.get(WalletsViewModel.class);

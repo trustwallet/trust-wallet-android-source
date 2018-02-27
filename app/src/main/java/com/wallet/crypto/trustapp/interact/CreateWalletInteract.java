@@ -7,6 +7,8 @@ import com.wallet.crypto.trustapp.repository.WalletRepositoryType;
 
 import io.reactivex.Single;
 
+import static com.wallet.crypto.trustapp.interact.rx.operator.Operators.completableErrorProxy;
+
 public class CreateWalletInteract {
 
 	private final WalletRepositoryType walletRepository;
