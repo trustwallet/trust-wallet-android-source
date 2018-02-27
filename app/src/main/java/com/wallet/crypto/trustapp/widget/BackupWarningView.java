@@ -18,7 +18,6 @@ import com.wallet.crypto.trustapp.ui.widget.OnBackupClickListener;
 public class BackupWarningView extends FrameLayout implements View.OnClickListener {
 
     private OnBackupClickListener onPositiveClickListener;
-    private OnBackupClickListener onNegativeClickListener;
     private Wallet wallet;
 
     public BackupWarningView(@NonNull Context context) {
@@ -39,7 +38,6 @@ public class BackupWarningView extends FrameLayout implements View.OnClickListen
         setBackgroundColor(ContextCompat.getColor(getContext(), R.color.white));
         LayoutInflater.from(getContext()).inflate(layoutId, this, true);
         findViewById(R.id.backup_action).setOnClickListener(this);
-        findViewById(R.id.later_action).setOnClickListener(this);
     }
 
     @Override
@@ -50,17 +48,7 @@ public class BackupWarningView extends FrameLayout implements View.OnClickListen
                     onPositiveClickListener.onBackupClick(v, wallet);
                 }
             } break;
-            case
-            R.id.later_action: {
-                if (onNegativeClickListener != null) {
-                    onNegativeClickListener.onBackupClick(v, wallet);
-                }
-            }
         }
-    }
-
-    public void setOnNegativeClickListener(OnBackupClickListener onNegativeClickListener) {
-        this.onNegativeClickListener = onNegativeClickListener;
     }
 
     public void setOnPositiveClickListener(OnBackupClickListener onPositiveClickListener) {
