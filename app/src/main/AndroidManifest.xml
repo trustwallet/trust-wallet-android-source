@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name=".App"
@@ -62,8 +63,7 @@
 
         <activity
             android:name=".ui.AddTokenActivity"
-            android:label="@string/title_add_token"
-            />
+            android:label="@string/title_add_token" />
 
         <activity
             android:name=".ui.barcode.BarcodeCaptureActivity"

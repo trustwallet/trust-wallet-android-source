@@ -36,6 +36,7 @@
     <string name="confirm_delete_account">Make sure that you have a backup of this wallet.</string>
     <string name="title_activity_import_account">ImportAccountActivity</string>
     <string name="action_import">Import</string>
+    <string name="action_select_keystore">Select Keystore</string>
     <string name="title_activity_export_account">ExportAccountActivity</string>
     <string name="action_export">Backup private key</string>
     <string name="message_save_this">Keep this someplace safe</string>
@@ -86,7 +87,7 @@
     </string>
     <string name="message_no_backup">No backup, no Ethereum.</string>
     <string name="error_deleting_account">Error deleting wallet</string>
-	<string name="error_deleting_account_with_details">Error deleting wallet %s</string>
+    <string name="error_deleting_account_with_details">Error deleting wallet %s</string>
     <string name="error_passwords_must_match">Passwords must match.</string>
     <string name="label_confirm_new_password">Confirm new password</string>
     <string name="label_new_password">New password</string>
@@ -120,15 +121,15 @@
     <string name="transfer">Transfer %s</string>
     <string name="action_buy">Buy</string>
     <string name="title_deposit">How would you like to buy?</string>
-	<string name="empty"/>
-	<string name="try_again">Try again</string>
-	<string name="already_have_account">Already have a wallet?</string>
-	<string name="title_add_account">Add wallet</string>
-	<string name="action_create_new_account">Create new wallet</string>
-	<string name="unknown_error">An error has occurred.</string>
-	<string name="action_backup_wallet">Backup Wallet</string>
-	<string name="action_backup_later">Do it later</string>
-	<string name="set_account_default">Do want to make a new wallet the main one?</string>
+    <string name="empty" />
+    <string name="try_again">Try again</string>
+    <string name="already_have_account">Already have a wallet?</string>
+    <string name="title_add_account">Add wallet</string>
+    <string name="action_create_new_account">Create new wallet</string>
+    <string name="unknown_error">An error has occurred.</string>
+    <string name="action_backup_wallet">Backup Wallet</string>
+    <string name="action_backup_later">Do it later</string>
+    <string name="set_account_default">Do want to make a new wallet the main one?</string>
     <string name="no_tokens">No tokens found.</string>
     <string name="title_email">Email us</string>
     <!-- Titles -->
@@ -157,6 +158,7 @@
     <string name="title_dialog_watch_out">Watch out!</string>
     <string name="title_dialog_add_account">Add wallet</string>
     <string name="title_dialog_deposit">How would you like to buy?</string>
+    <string name="title_select_keystore">Select your wallet Keystore</string>
     <!-- Dialog messages-->
     <string name="dialog_message">Enter the password to encrypt your wallet</string>
     <string name="dialog_message_unrecoverable_message">If this device is replaced or this app is deleted, neither you nor Trust Wallet can recover your funds without a backup.</string>
@@ -230,4 +232,5 @@
     <string name="title_activity_barcode">Barcode Scan</string>
     <string name="error_add_token">Could not add token.</string>
     <string name="facebook">Facebook</string>
+    <string name="msg_failed_open_file_selector">Unable to open file. Please install a File Explorer</string>
 </resources>
