@@ -4,8 +4,6 @@
 
 <b>Highlights of Trust - Ethereum wallet</b>
 
-✔️ Participate in any ERC20 or ERC223 based ICO or airdrop. Configure gas price, gas limit and data/message in a simple and easy-to-understand way
-
 ✔️ Gain a peace of mind with military grade security. Trust Wallet was fully audited by a leading security firm that ensured safety and integrity of the application
 
 ✔️ Take the full advantage of Ethereum platform. Send, receive, store and track Ethereum (ETH), Ethereum Classic (ETC), Callisto (CLO) and over 30,000 supported ERC20 tokens, including EOS, OmiseGO, Qtum, Kyber Network, EOS, Bat, TenXPay and Augur
