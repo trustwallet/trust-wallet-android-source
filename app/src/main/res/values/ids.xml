@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="button_ok" type="id">OK</item>
+    <item name="layout_input_keystore_info" type="id" />
+    <item name="btn_start_import_keystore" type="id" />
+    <item name="btn_select_keystore" type="id" />
 </resources>
