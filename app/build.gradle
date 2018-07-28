@@ -20,11 +20,11 @@ android {
     compileSdkVersion 27
     buildToolsVersion '26.0.2'
     defaultConfig {
-        applicationId "com.wallet.crypto.trustapp"
+        applicationId "com.random.pickyourown"
         minSdkVersion 18
         targetSdkVersion 26
-        versionCode 37
-        versionName "1.4.2"
+        versionCode 1
+        versionName "1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled = true
