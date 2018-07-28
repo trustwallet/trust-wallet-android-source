@@ -72,10 +72,6 @@
         <activity
             android:name=".ui.GasSettingsActivity"
             android:label="@string/title_send_settings" />
-
-        <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value="74d3fa8b5038a154c0c05555d27112a0d4a80d68" />
     </application>
 
 </manifest>
