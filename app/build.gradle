@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.random.pickyourown"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/NOTICE' // will not include NOTICE file
+        exclude 'META-INF/LICENSE' // will not include LICENSE file
+        // as noted by @Vishnuvathsan you may also need to include
+        // variations on the file name. It depends on your dependencies.
+        // Some other common variations on notice and license file names
+        //exclude 'META-INF/notice'
+        //exclude 'META-INF/notice.txt'
+        //exclude 'META-INF/license'
+        //exclude 'META-INF/license.txt'
+    }
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+project.ext {
+    retrofitVersion = "2.3.0"
+    okhttpVersion = "3.9.0"
+    supportVersion = "27.0.2"
+    web3jVersion = "3.0.1-android"
+    gethVersion = "1.7.0"
+    gsonVersion = "2.8.2"
+    rxJavaVersion = "2.1.6"
+    rxAndroidVersion = "2.0.1"
+    daggerVersion = "2.11"
+}
+
+dependencies {
+    // Etherium client
+    implementation "org.web3j:core:$project.web3jVersion"
+    implementation "org.ethereum:geth:$project.gethVersion"
+    // Http client
+    implementation "com.squareup.retrofit2:retrofit:$project.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$project.retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$project.retrofitVersion"
+    implementation "com.squareup.okhttp3:okhttp:$project.okhttpVersion"
+    implementation "com.google.code.gson:gson:$project.gsonVersion"
+
+    implementation "android.arch.lifecycle:runtime:1.0.3"
+    implementation "android.arch.lifecycle:extensions:1.0.0"
+
+    implementation "com.android.support:appcompat-v7:$project.supportVersion"
+    implementation "com.android.support:design:$project.supportVersion"
+    implementation "com.android.support:support-vector-drawable:$project.supportVersion"
+    implementation "com.android.support:recyclerview-v7:$project.supportVersion"
+    implementation "com.android.support:multidex:1.0.2"
+    // Bar code scanning
+    implementation "com.google.zxing:core:3.2.1"
+    implementation "com.google.android.gms:play-services-vision:11.8.0"
+    // Sugar
+    implementation "com.android.support.constraint:constraint-layout:1.0.2"
+    implementation "com.github.apl-devs:appintro:v4.2.2"
+    implementation 'com.romandanylyk:pageindicatorview:1.0.0'
+    implementation "com.journeyapps:zxing-android-embedded:3.2.0@aar"
+    // ReactiveX
+    implementation "io.reactivex.rxjava2:rxjava:$project.rxJavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$project.rxAndroidVersion"
+    // Dagger 2
+    // Dagger core
+    implementation "com.google.dagger:dagger:$project.daggerVersion"
+    annotationProcessor "com.google.dagger:dagger-compiler:$project.daggerVersion"
+    // Dagger Android
+    implementation "com.google.dagger:dagger-android-support:$project.daggerVersion"
+    annotationProcessor "com.google.dagger:dagger-android-processor:$project.daggerVersion"
+    // if you are not using support library, include this instead
+    implementation "com.google.dagger:dagger-android:$project.daggerVersion"
+    // Tests
+    testImplementation "junit:junit:4.12"
+    androidTestImplementation("com.android.support.test.espresso:espresso-core:2.2.2", {
+        exclude group: "com.android.support", module: "support-annotations"
+    })
+}
